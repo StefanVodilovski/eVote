@@ -1,0 +1,23 @@
+.custom-navbar {
+    background-color: #87DBFF;
+    /* Replace this with your desired color */
+}
+
+.custom-navbar .navbar-brand,
+.custom-navbar .nav-link {
+    color: black;
+    /* Optional: Change text color */
+}
+
+.custom-navbar .navbar-brand:hover,
+.custom-navbar .nav-link:hover {
+    color: grey;
+    /* Optional: Change text color on hover */
+}
+
+.acc-img {
+    max-height: 50px;
+    /* Adjust the max-height to fit the navbar */
+    width: auto;
+    vertical-align: middle;
+}

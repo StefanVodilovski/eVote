@@ -1,0 +1,74 @@
+.full-screen-div-polls {
+    width: 100% !important;
+    height: 100vh !important;
+    /* Full viewport height */
+    background-color: #937DE2;
+
+    justify-content: center;
+    /* Center horizontally */
+    align-items: flex-start;
+    /* Align to start (top) vertically */
+    padding-top: 5%;
+    padding-bottom: 100%;
+    /* Adjust this value to move the container down */
+
+
+}
+
+.centered {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.poll-div {
+    width: 50%;
+    /* You can adjust this value as needed */
+    background-color: #F5B0B9;
+    /* Example background color for the container */
+    padding: 20px;
+    /* Example padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Example shadow */
+    display: flex;
+    padding-top: 10px;
+}
+
+.hr-margin {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.my-polls-margin {
+    margin-bottom: 10px
+}
+
+.blue-background {
+    background-color: #9393FF !important;
+}
+
+.blue-background:hover {
+    background: #7070f6 !important;
+    color: black !important;
+}
+
+.red-background {
+    background-color: #FF6C6C !important;
+
+}
+
+.red-background:hover {
+    background-color: #f95050 !important;
+    color: black !important;
+}
+
+.yellow-background {
+    background-color: #FFC498 !important;
+    color: white !important;
+}
+
+.yellow-background:hover {
+    background-color: #f8af76 !important;
+    color: black !important;
+}

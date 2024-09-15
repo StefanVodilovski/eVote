@@ -1,0 +1,59 @@
+.background-div {
+
+    width: 100%;
+    height: 100vh;
+    /* Full viewport height */
+    background-color: #937DE2;
+    display: flex;
+    justify-content: center;
+    /* Center horizontally */
+    align-items: flex-start;
+    /* Align to start (top) vertically */
+    padding-top: 5%;
+    padding-bottom: 10%;
+    /* Adjust this value to move the container down */
+
+
+}
+
+.centered {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.create-poll-div {
+
+    width: 50%;
+    /* You can adjust this value as needed */
+    background-color: #F5B0B9;
+    /* Example background color for the container */
+    padding: 20px;
+    /* Example padding */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Example shadow */
+    display: flex;
+    padding-top: 10px;
+
+}
+
+.hr-margin {
+    margin-top: 0px;
+    margin-bottom: 20px;
+
+}
+
+.custom-input {
+    background-color: #9393FF !important;
+
+}
+
+.custom-btn {
+    background-color: #9393FF !important;
+}
+
+.custom-btn:hover {
+    background-color: #6b6bf2 !important;
+    color: black
+}

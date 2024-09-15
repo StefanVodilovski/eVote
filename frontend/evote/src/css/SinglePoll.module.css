@@ -1,0 +1,54 @@
+.fullScreenBackgroundDiv {
+
+    width: 100% !important;
+    height: 100vh !important;
+    /* Full viewport height */
+    background-color: #937DE2;
+
+    justify-content: center;
+    /* Center horizontally */
+    align-items: flex-start;
+    /* Align to start (top) vertically */
+    padding-top: 5%;
+    padding-bottom: 100%;
+    /* Adjust this value to move the container down */
+
+}
+
+.electionName {
+    font-size: 2em;
+}
+
+.transparentBg {
+    background-color: #937DE2;
+    border: none !important;
+
+}
+
+.voteBtn {
+    background-color: #FFC498 !important;
+    color: black !important;
+}
+
+.voteBtn:hover {
+    background-color: #faaf75 !important;
+    color: white !important;
+}
+
+.votesCount {
+    color: white;
+    font-size: 1.3em;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+
+.yellowBackground {
+    background-color: #FFC498 !important;
+    color: black;
+}
+
+.yellowBackground:hover {
+    background-color: #f8af76 !important;
+    color: black;
+}
