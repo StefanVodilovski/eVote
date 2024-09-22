@@ -56,7 +56,7 @@ async function deployContract() {
 
 
     const command = `npx`;
-    const args = ['hardhat', 'run', '/home/stefan/project-learning/evote/scripts/deploy_election.js', '--network', 'sepolia'];
+    const args = ['hardhat', 'run', '/home/stefan/project-learning/evote/backend/scripts/deploy_election.js', '--network', 'sepolia'];
 
     return new Promise((resolve, reject) => {
         const child = spawn(command, args, { shell: true });
